@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.photo{
+  position: relative;
+  text-align:center;
+  width: 100%;
+  min-height:100vh;
+  background-image:url(img/photo.jpg);
+  background-position: center;
+  background-size:cover;
+  overflow:hidden;
+}
+
+#CALENDAR {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  gap: 25px;
+  justify-content: center;
+  align-content: center; 
+  min-height: 60vh;       
+  font-family: Arial, sans-serif;
+  font-size: 14px; 
+}
+
+#HEADING{
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;  
+  color:#A3D5FF;	
+}
+
+#CALENDAR caption {
+    background-color: #2E5984;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    caption-side:top;
+}
+
+#CALENDAR table {
+	border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+	background-color:#DFF2FF;
+}
+
+#CALENDAR th {
+    font-weight: bold;
+    padding: 3px;
+	border: 1px solid black;
+	background-color:#A3D5FF;
+}
+
+#CALENDAR td {
+    padding: 3px;
+    text-align: center;
+	border: 1px solid black;
+}
+
+ 
