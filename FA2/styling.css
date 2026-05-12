@@ -1,0 +1,218 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;        
+  font-size: 14px;
+  font-weight:bold;
+  color: #ffffff;
+  margin: 0;
+  background-color: black;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: black;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  
+}
+nav a{
+  color: orange;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+nav a:first-child {	 
+  font-family: 'Bebas Neue', sans-serif;
+  color: orange;
+  font-size: 28px;
+  letter-spacing: 0.25em;
+  margin-right:auto;
+}
+
+nav a:not(:first-child) {
+margin-right: 100px;  
+}
+
+nav a:hover {
+  color: white;
+}
+
+.hero {
+  background-color: black;
+}
+
+.hero-images {
+  display: flex;
+}
+
+.hero-images img {
+  width: 33.33%;
+  height: 740px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+.food {
+  background-color: black;
+}
+
+.food-images {
+  display: flex;
+}
+
+.food-images img {
+  width: 33.33%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.menu-card h1{
+  color:orange;	
+  position: relative;
+  bottom: 50px
+}
+
+.menu-card h3 {
+  color: orange;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-card {
+  background: #222;
+  padding: 50px;
+  border-radius: 100px;
+  flex: 1;
+}
+
+.drinks {
+  background-color: black;
+}
+
+.drinks-images {
+  display: flex;
+}
+
+.drinks-images img {
+  width: 33.33%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.special {
+  background-color: black;
+}
+
+.special-images {
+  display: flex;
+}
+
+.special-images img {
+  width: 50%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.weekly-specials h1{
+color:orange;
+}
+
+.beer {
+  background-color: black;
+}
+
+.beer-images {
+  display: flex;
+}
+
+.beer-images img {
+  width: 33.33%;
+  height: 700px;
+  object-fit: cover;
+}
+.friday  h2{
+color:orange;
+}
+
+.booking-form {
+  width: 320px;
+  background: #222;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.booking-form h2 {
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 12px;
+  background: orange;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.special-card {
+  background: #222;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 20px;
+}
